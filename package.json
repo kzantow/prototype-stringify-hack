@@ -1,0 +1,23 @@
+{
+  "name": "prototype-stringify-hack",
+  "version": "0.0.1",
+  "description": "Stringify function that works around the awfulness of Prototype",
+  "main": "stringify.js",
+  "scripts": {
+    "test": "echo 'done'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://git@github.com/kzantow/prototype-stringify-hack.git"
+  },
+  "keywords": [
+    "prototype",
+    "stringify"
+  ],
+  "author": "kzantow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kzantow/prototype-stringify-hack/issues"
+  },
+  "homepage": "https://github.com/kzantow/prototype-stringify-hack#readme"
+}
