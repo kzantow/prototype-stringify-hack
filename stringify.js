@@ -1,7 +1,7 @@
 /**
  * Awful hack to get around JSONifying things with Prototype taking over wrong. ugh. Prototype is the worst.
  */
-exports.stringify = function(o, fn) {
+module.exports = function(o, fn) {
 	try {
 		if(Array.prototype.toJSON) { // Prototype f's this up something bad
 			var protoJSON = {
